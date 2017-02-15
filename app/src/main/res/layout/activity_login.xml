@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="32dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@mipmap/login_logo"
+             />
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFacebookSignIn"
+            android:layout_marginTop="32dp"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="24dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_above="@+id/textView9"
+            />
+
+        <TextView
+            android:text="Or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#000000"/>
+
+        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+            android:id="@+id/btnTwitterSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

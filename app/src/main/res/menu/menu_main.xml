@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.think42lab.arangam.MainActivity">
+    <!--<item android:id="@+id/search"-->
+    <!--android:title="Search"-->
+    <!--android:icon="@drawable/ic_search_black_24dp"-->
+    <!--android:showAsAction="withText|ifRoom"-->
+    <!--android:actionViewClass="android.widget.SearchView"-->
+    <!--tools:ignore="AppCompatResource" />-->
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <!--<item-->
+        <!--android:id="@+id/share"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Share App"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <!--<item-->
+        <!--android:id="@+id/rateus"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Rate Us"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+
+</menu>

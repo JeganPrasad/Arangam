@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:background="@color/rowbackgroundcolor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100sp">
+
+
+
+            <Button
+                android:layout_gravity="center"
+                android:text="A"
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="4dp"
+                android:background="@drawable/ic_brightness_1_black_24dp"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:textSize="11sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#000000"
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/test"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"/>
+
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/test"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:layout_marginTop="15dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:text="Book"
+                    android:textSize="10sp"
+                    android:layout_marginRight="10sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="100sp"
+                    android:layout_height="10sp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/imageView2"
+                    android:background="@drawable/shape"
+                    android:layout_alignBottom="@+id/textView2"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginBottom="10sp"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+</RelativeLayout>

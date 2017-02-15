@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="10dp"
+        card_view:cardBackgroundColor="#fff"
+        android:layout_margin="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:text="Brahma Gana Saba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/venue"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp" />
+
+            <TextView
+                android:text="ajxvgvhsbchjsdvchgdsvhcvsghcvsgh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/accompanists"
+                android:textSize="13sp"
+                android:textColor="#000"
+                android:layout_below="@+id/venue"
+                android:layout_alignStart="@+id/venue"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp" />
+
+            <TextView
+                android:text="jvghvgsh bsvhgsv hsvhgs "
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateTime"
+                android:textSize="11sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/accompanists"
+                android:layout_alignStart="@+id/accompanists"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dateTime"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_grade_black_24dp"
+                    android:id="@+id/imageView7"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="1"
+                    />
+                <ImageView
+                    android:src="@drawable/ic_event_seat_black_24dp"
+                    android:id="@+id/imageView8"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/uber_rides_api_icon_1x_28px"
+                    android:id="@+id/imageView9"
+                    android:layout_weight="1"
+                    android:scaleType="matrix" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

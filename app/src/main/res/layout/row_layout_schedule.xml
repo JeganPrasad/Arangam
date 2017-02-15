@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/iconLetter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="false"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_brightness_1_black_24dp"
+        android:text="A"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/iconLetter"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum Lorem ipsum Lorem ipsum"
+            android:textColor="#040707"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/accompanists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Lorem ipsum Lorem ipsum Lorem ipsum"
+            android:textColor="#6A6A6A"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Lorem ipsum Lorem ipsum Lorem ipsum"
+            android:textColor="#6A6A6A"
+            android:textSize="11sp" />
+
+
+        <LinearLayout
+            android:id="@+id/actionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/favouriteLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingEnd="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/favourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/star" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/ticketLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingEnd="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+
+                <ImageView
+
+                    android:id="@+id/ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ticket" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/uberLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingEnd="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginLeft="48dp"
+                android:paddingTop="8dp">
+
+
+                <ImageView
+                    android:id="@+id/uber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/uber" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e6e6e8" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

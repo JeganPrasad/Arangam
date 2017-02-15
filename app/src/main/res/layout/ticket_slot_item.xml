@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/slot_content"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:background="@color/slotContentBackground"
+    android:layout_marginLeft="2dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/slot"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:clickable="false"
+        android:inputType="textCapWords"
+        android:text="1" />
+
+
+</LinearLayout>

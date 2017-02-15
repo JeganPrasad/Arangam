@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a6d8d</color>
+    <color name="colorPrimaryDark">#1a6d8d</color>
+    <color name="colorAccent">#106B88</color>
+    <color name="TabBackgroundColor">#f6f7f8</color>
+    <color name="rowbackgroundcolor">#FFFFFF</color>
+    <color name="buttonbackgroundcolor">#106B88</color>
+    <color name="buttonPress">#106B88</color>
+    <color name="buttonUnPress">#D6D6D6</color>
+
+    <color name="slotContentBackground">#BBBBBB</color>
+    <color name="selectedSlotContentBackground">@color/colorPrimary</color>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="backcolor">#47ada0</color>
+    <color name="txtcolor">#040707</color>
+
+
+</resources>

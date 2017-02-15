@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_cancel_black_48dp"
+             />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancel"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:id="@+id/successMessage"
+                android:text="Your ticket(s) has been booked successfully."
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/mobileNumberLayout"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/successMessage"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:text="(+91)"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/mobileNumber"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your mobile number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/sms"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_below="@+id/mobileNumberLayout"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="GET SMS"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

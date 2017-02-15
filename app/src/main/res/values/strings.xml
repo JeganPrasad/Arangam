@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Arangam</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_schedule">SCHEDULE</string>
+    <string name="action_search">Search</string>
+    <string name="facebook_app_id">735949336558572</string>
+    <string name="fabric_app_id">nrLFDdOQ8Mh23dXElyF1ve5ts</string>
+    <string name="fabric_secrete_key">l54GOJeqTQFn3CE9jyRuQ2g62Xi9cZ268YCxQpHbz9mR5GlrM9</string>
+    <string name="fb_login_protocol_scheme">fb735949336558572</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_ticket_booking_activity">Book Ticket</string>
+</resources>
